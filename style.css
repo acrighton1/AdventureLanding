@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lora", sans-serif;
+ 
   
 }
 
@@ -23,16 +24,14 @@ section{
 }
 
 header{
-  position: relative;
-  top: 0;
+  position: center;
+  top: 0;  
   width: 100%;
   padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
 }
 
-header .logo{
+header .navbar-brand{
   position: relative;
   color: rgb(255, 255, 255);
   font-size: 30px;
@@ -43,7 +42,7 @@ header .logo{
  
 }
 
-header .nav a{
+header .nav-item a{
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 800;
@@ -55,12 +54,12 @@ header .nav a{
   font-size:24px;
 }
 
-header .nav a:not(:last-child){
+header .navbar-nav a:not(:last-child){
   margin-right: 30px;
 }
 
-header .nav a:hover{
-  background: #1a4606
+header .navbar-item a:hover{
+  color: #07d300;
 }
 
 .content{
@@ -86,7 +85,7 @@ header .nav a:hover{
 }
 
 .content .info p{
-  font-size: 20px;
+  font-size: 32px;
   font-weight: 500;
   margin-bottom: 40px;
   color: white;
@@ -139,10 +138,6 @@ header .nav a:hover{
 
 /* Responsive styles */
 
-@media (max-width: 960px){
-  header .navigation{
-    display: none;
-  } 
 
 
 
