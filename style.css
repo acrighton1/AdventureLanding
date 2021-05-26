@@ -65,24 +65,34 @@ header .navbar-item a:hover{
   color: #07d300;
 }
 
-@media screen (320px)
+@media screen and(375px)
   max-width: 50%;
   
 }
 .content{
   max-width: 650px;
   margin: 60px 100px;
+  
+}
+
+.info{
+  margin-bottom:200px
 }
 
 .content .info h2{
   color: #227221;
-  font-size: 70px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 800; 
   letter-spacing: 5px;
   line-height: 60px;
-  margin-bottom: 30px;
+  margin-top: 100px;
   text-shadow: black;
+  word-wrap: break-word;
+  margin-left: 80px;
+  
+  
+  
 }
 
 .content .info h2 span{
@@ -91,12 +101,16 @@ header .navbar-item a:hover{
   font-weight: 600;
 }
 
-.content .info p{
-  font-size: 32px;
+.content .info p{  
   font-weight: 500;
-  margin-bottom: 40px;
-  color: white;
-  text-shadow: black;
+  margin-bottom: 30px;
+  color: white;   
+  margin-left: 80px;  
+  max-width: 300px;
+  padding: 12px;
+  
+  
+ 
  
 
 }
@@ -111,8 +125,9 @@ header .navbar-item a:hover{
   padding: 10px 20px;
   border-radius: 5px;
   transition: 0.3s;
-  text-shadow: black ; 
-  transition-property: background;  
+  text-shadow: black;  
+  margin-left: 80px;
+  margin-bottom: 300px;
  
 }
 
@@ -153,41 +168,7 @@ header .navbar-item a:hover{
     bottom: -6px;
   }
 
-  .content .info h2{
-    font-size: 45px;
-    line-height: 50px;
-  }
-
-  .content .info h2 span{
-    font-size: 40px;
-    font-weight: 600;
-  }
-
-  .content .info p{
-    font-size: 14px;
-  }
-}
-
-.content .info h2 p{
-  float: left;
-
-}
-
-@media (max-width: 560px){
-  .content .info h2{
-    font-size: 35px;
-    line-height: 40px;
-  }
-
-  .content .info h2 span{
-    font-size: 30px;
-    font-weight: 600;
-  }
-
-  .content .info p{
-    font-size: 14px;
-  }
-}
+ 
 
 .footer {
   display: flex;
