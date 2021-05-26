@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
+*{ 
+  width: auto;
+  height: auto;
   box-sizing: border-box;
   font-family: "Lora", sans-serif;
-  overflow:auto;
+  
   
   
  
@@ -65,7 +65,10 @@ header .navbar-item a:hover{
   color: #07d300;
 }
 
-
+@media screen (320px)
+  max-width: 50%;
+  
+}
 .content{
   max-width: 650px;
   margin: 60px 100px;
