@@ -191,12 +191,13 @@ header .navbar-item a:hover{
      }
 
 
-.footer-copyright 
-{ padding-top: 5px; 
+.footer-copyright {
+ padding-top: 5px; 
+ color: white;
 
 }
 .footer-copyright a { 
-color: #fff;
+color: rgb(255, 255, 255);
 border: 0; 
 }
 .footer-copyright a:hover, .footer-copyright a:focus {     
